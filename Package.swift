@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "SCSDKBitmojiKit",
-            targets: ["SCSDKCoreKit", "SCSDKBitmojiKit", "PINCache", "PINOperation"]),
+            targets: ["SCSDKBitmojiKit"]),
         .library(
             name: "SCSDKLoginKit",
             targets: ["SCSDKCoreKit", "SCSDKLoginKit"]),
@@ -28,7 +28,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "SCSDKBitmojiKit",
+            name: "SCSDKBitmojiKit-Internal",
             path: "SCSDKBitmojiKit.xcframework"
         ),
         .binaryTarget(
@@ -46,6 +46,10 @@ let package = Package(
         .binaryTarget(
             name: "SCSDKStoryKit",
             path: "SCSDKStoryKit.xcframework"
-        )
+        ),
+        .target(name: "SCSDKBitmojiKit",
+                dependencies: ["SCSDKBitmojiKit-Internal",
+                               "PINCache",
+                               "PINOperation"])
     ]
 )
