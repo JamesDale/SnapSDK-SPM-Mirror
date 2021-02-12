@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "SCSDKBitmojiKit",
-            targets: ["SCSDKCoreKit", "SCSDKBitmojiKit"]),
+            targets: ["SCSDKCoreKit", "SCSDKBitmojiKit", "PINCache", "PINOperation"]),
         .library(
             name: "SCSDKLoginKit",
             targets: ["SCSDKCoreKit", "SCSDKLoginKit"]),
