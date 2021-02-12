@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "SCSDKBitmojiKit",
-            targets: ["SCSDKBitmojiKit"]),
+            targets: ["SCSDKBitmojiKitTargets"]),
         .library(
             name: "SCSDKLoginKit",
             targets: ["SCSDKCoreKit", "SCSDKLoginKit"]),
@@ -27,29 +27,31 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "SCSDKBitmojiKit-Internal",
-            path: "SCSDKBitmojiKit.xcframework"
+            name: "SCSDKBitmojiKit",
+            path: "Sources/SCSDKBitmojiKit/SCSDKBitmojiKit.xcframework"
         ),
         .binaryTarget(
             name: "SCSDKCoreKit",
-            path: "SCSDKBitmojiKit.xcframework"
+            path: "Sources/SCSDKCoreKit/SCSDKCoreKit.xcframework"
         ),
         .binaryTarget(
             name: "SCSDKCreativeKit",
-            path: "SCSDKCreativeKit.xcframework"
+            path: "Sources/SCSDKCreativeKit/SCSDKCreativeKit.xcframework"
         ),
         .binaryTarget(
             name: "SCSDKLoginKit",
-            path: "SCSDKLoginKit.xcframework"
+            path: "Sources/SCSDKLoginKit/SCSDKLoginKit.xcframework"
         ),
         .binaryTarget(
             name: "SCSDKStoryKit",
-            path: "SCSDKStoryKit.xcframework"
+            path: "Sources/SCSDKStoryKit/SCSDKStoryKit.xcframework"
         ),
-        .target(name: "SCSDKBitmojiKit",
-                dependencies: ["SCSDKBitmojiKit-Internal",
-                               "PINCache",
-                               "PINOperation"],
-                path: "SCSDKBitmojiKit.xcframework")
+        .target(name: "SCSDKBitmojiKitTargets",
+                dependencies: [
+                    .target(name: "SCSDKBitmojiKit"),
+                    .product(name: "PINCache", package: "PINCache"),
+                    .product(name: "PINOperation", package: "PINOperation")
+                ],
+                path: "Sources/SCSDKBitmojiKitTargets")
     ]
 )
