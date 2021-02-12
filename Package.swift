@@ -49,6 +49,7 @@ let package = Package(
         .target(name: "SCSDKBitmojiKit",
                 dependencies: ["SCSDKBitmojiKit-Internal",
                                "PINCache",
-                               "PINOperation"])
+                               "PINOperation"],
+                path: "SCSDKBitmojiKit.xcframework")
     ]
 )
