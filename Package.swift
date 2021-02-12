@@ -21,10 +21,9 @@ let package = Package(
             targets: ["SCSDKCoreKit", "SCSDKStoryKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/pinterest/PINCache",
-                 .upToNextMajor(from: Version(2, 3, 0))),
+        .package(url: "https://github.com/pinterest/PINCache", .branch("master")),
         .package(url: "https://github.com/pinterest/PINOperation",
-                 .exact("1.2.1"))
+                 .exact("1.2.1")),
     ],
     targets: [
         .binaryTarget(
