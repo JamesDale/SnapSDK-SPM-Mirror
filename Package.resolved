@@ -12,7 +12,7 @@
       },
       {
         "package": "PINOperation",
-        "repositoryURL": "https://github.com/pinterest/PINOperation",
+        "repositoryURL": "https://github.com/pinterest/PINOperation.git",
         "state": {
           "branch": null,
           "revision": "44d8ca154a4e75a028a5548c31ff3a53b90cef15",
