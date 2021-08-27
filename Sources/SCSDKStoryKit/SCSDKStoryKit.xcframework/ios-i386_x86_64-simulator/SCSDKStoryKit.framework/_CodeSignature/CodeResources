@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		eDgVP87v188dJWcHiIFP6Rn1PJ4=
+		HCkPYIO6gwpYY6Owm2Lx9TH7mx8=
 		</data>
 		<key>Headers/SCSDKStoryKit.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aKoiW8vVH4qRNTGnB4Sjg+vglA4=
+		BGVA8TTIHdjmKItZ8dw5oeaSlHw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,11 +71,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eDgVP87v188dJWcHiIFP6Rn1PJ4=
+			HCkPYIO6gwpYY6Owm2Lx9TH7mx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			b45r/nor5uVswgsRny+B6twToJN3RXz3TAPdRD91woQ=
+			Wrtvrn9oLVoiO34IFYtGxn9ssoHDZW/7d16ImxcUNs8=
 			</data>
 		</dict>
 		<key>Headers/SCSDKStoryKit.h</key>

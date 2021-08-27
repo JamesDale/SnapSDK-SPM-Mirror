@@ -6,14 +6,14 @@
 	<array>
 		<dict>
 			<key>LibraryIdentifier</key>
-			<string>ios-armv7_armv7s_arm64</string>
+			<string>ios-arm64_armv7_armv7s</string>
 			<key>LibraryPath</key>
 			<string>SCSDKCoreKit.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
+				<string>arm64</string>
 				<string>armv7</string>
 				<string>armv7s</string>
-				<string>arm64</string>
 			</array>
 			<key>SupportedPlatform</key>
 			<string>ios</string>

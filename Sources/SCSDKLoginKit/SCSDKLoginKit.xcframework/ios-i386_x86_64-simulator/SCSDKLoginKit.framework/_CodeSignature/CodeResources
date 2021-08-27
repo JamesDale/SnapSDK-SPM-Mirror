@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		p2aNrsygugi+zJqKJ7dcx8pgdZQ=
+		C2VzaK9qf3TBSdsIlMnnVK5/1z8=
 		</data>
 		<key>Headers/SCSDKAnalyticsEventsQueue.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		F4yysbbJxjbfjvCR7VjtgcVxEAE=
+		WzP9Ox2wSrszl1NH4/WiwJo9020=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -267,11 +267,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p2aNrsygugi+zJqKJ7dcx8pgdZQ=
+			C2VzaK9qf3TBSdsIlMnnVK5/1z8=
 			</data>
 			<key>hash2</key>
 			<data>
-			U5EHL7VpeN2y4CkqvZpIyjkbvRboQMty3Qvzb18AgOM=
+			JVuDdJC4CvbXqr4HvhSGV0eGcQ1e5eeNa37DzQ9SmwQ=
 			</data>
 		</dict>
 		<key>Headers/SCSDKAnalyticsEventsQueue.h</key>
